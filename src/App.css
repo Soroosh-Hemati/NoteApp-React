@@ -11,6 +11,9 @@
   margin-bottom: 3rem;
   border-bottom: 1px solid var(--text-400);
 }
+.note-header select option{
+  padding: .5rem 0;
+}
 .note-app {
   display: flex;
   align-items: center;
