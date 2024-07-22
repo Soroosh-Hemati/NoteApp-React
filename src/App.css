@@ -80,6 +80,22 @@
   text-align: left;
   color: var(--text-300);
 }
+.note-status{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.note-status li{
+  color: var(--text-400);
+}
+.note-status li span{
+  background-color: var(--text-400);
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 8px;
+  margin-left: 8px;
+}
 .btn--secondary{
   background-color: red;
   color: #fff;
