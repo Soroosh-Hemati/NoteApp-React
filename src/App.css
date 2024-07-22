@@ -34,3 +34,55 @@
     border-radius: 5px;
     width: 100%;
 }
+.note-item {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.note-item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.3rem;
+  border-bottom: 1px solid var(--text-100);
+}
+
+.note-item.completed .title {
+  text-decoration: line-through;
+}
+
+.note-item.completed {
+  opacity: 80%;
+}
+
+.note-item__header .title {
+  font-size: 1.1rem;
+  color: var(--text-700);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.note-item__header .description {
+  color: var(--text-400);
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.note-item__header .actions {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.note-item__footer {
+  text-align: left;
+  color: var(--text-300);
+}
+.btn--secondary{
+  background-color: red;
+  color: #fff;
+  padding: .5rem;
+  border-radius: 5px;
+}

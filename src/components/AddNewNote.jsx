@@ -12,7 +12,7 @@ function AddNewNote({onAddNote}) {
             title,
             description,
             id: Date.now(),
-            Completed: false,
+            completed: false,
             createdAt: new Date().toISOString()
         }
         onAddNote(newNote)
