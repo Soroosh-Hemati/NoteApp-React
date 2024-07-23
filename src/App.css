@@ -16,7 +16,7 @@
 }
 .note-app {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   gap: 2rem;
 }
@@ -28,6 +28,7 @@
 }
 .add-new-note{
   width: 30%;
+  margin-top: 3rem;
 }
 .note-container{
   width: 60%;
